@@ -1,19 +1,15 @@
 
 // selecting the h1 element
 
-const h = document.querySelector("h1")
+
+const a = document.querySelectorAll("h1")
+console.log(a)
+
+// it will return a node list of h1 elements which is bsically an array of h1 elements
+
+a[0].innerHTML = "Hello World"
 
 
-// changing the text content of the h1 element
 
-h.innerHTML = "its me i guess!"
-
-
-// changing the color of the h1 element
-
-
-h.style.color =  "pink"
-
-h.style.backgroundColor = "black"
 
 
